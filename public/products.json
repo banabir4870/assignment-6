@@ -1,0 +1,323 @@
+[
+
+  {
+
+    "id": 1,
+
+    "name": "Pro Resume Builder",
+
+    "description": "Create professional resumes with ATS-friendly templates and real-time editing.",
+
+    "price": 12,
+
+    "period": "monthly",
+
+    "tag": "Popular",
+
+    "tagType": "popular",
+
+    "features": [
+
+      "100+ templates",
+
+      "ATS optimization",
+
+      "Export to PDF",
+
+      "Live preview"
+
+    ],
+
+    "icon": "/products/portfolio.png"
+
+  },
+
+  {
+
+    "id": 2,
+
+    "name": "UI Kit Bundle",
+
+    "description": "Modern UI components for web and mobile design projects.",
+
+    "price": 29,
+
+    "period": "one-time",
+
+    "tag": "Best Seller",
+
+    "tagType": "best-seller",
+
+    "features": [
+
+      "500+ components",
+
+      "Figma & Sketch",
+
+      "Dark & light mode",
+
+      "Free updates"
+
+    ],
+
+    "icon": "/products/operation.png"
+
+  },
+
+  {
+
+    "id": 3,
+
+    "name": "Portfolio Template",
+
+    "description": "Responsive portfolio template to showcase your projects.",
+
+    "price": 15,
+
+    "period": "one-time",
+
+    "tag": "New",
+
+    "tagType": "new",
+
+    "features": [
+
+      "Fully responsive",
+
+      "SEO optimized",
+
+      "Easy customization",
+
+      "Clean code"
+
+    ],
+
+    "icon": "/products/portfolio.png"
+
+  },
+
+  {
+
+    "id": 4,
+
+    "name": "Freelancer Toolkit",
+
+    "description": "Tools for managing freelance clients, invoices, and tasks.",
+
+    "price": 9,
+
+    "period": "monthly",
+
+    "tag": "Popular",
+
+    "tagType": "popular",
+
+    "features": [
+
+      "Invoice generator",
+
+      "Contract templates",
+
+      "Expense tracking",
+
+      "Client manager"
+
+    ],
+
+    "icon": "/products/social-media.png"
+
+  },
+
+  {
+
+    "id": 5,
+
+    "name": "Social Media Pack",
+
+    "description": "Editable social media templates for marketing campaigns.",
+
+    "price": 19,
+
+    "period": "one-time",
+
+    "tag": "Best Seller",
+
+    "tagType": "best-seller",
+
+    "features": [
+
+      "Instagram posts",
+
+      "Facebook covers",
+
+      "Canva support",
+
+      "High resolution"
+
+    ],
+
+    "icon": "/products/social-media.png"
+
+  },
+
+  {
+
+    "id": 6,
+
+    "name": "Code Snippet Library",
+
+    "description": "Reusable code snippets for faster development.",
+
+    "price": 7,
+
+    "period": "monthly",
+
+    "tag": "New",
+
+    "tagType": "new",
+
+    "features": [
+
+      "JS snippets",
+
+      "React components",
+
+      "CSS utilities",
+
+      "Regular updates"
+
+    ],
+
+    "icon": "/products/design-tool.png"
+
+  },
+
+  {
+
+    "id": 7,
+
+    "name": "E-commerce Starter Kit",
+
+    "description": "Build your online store quickly with this starter kit.",
+
+    "price": 39,
+
+    "period": "one-time",
+
+    "tag": "Popular",
+
+    "tagType": "popular",
+
+    "features": [
+
+      "Product pages",
+
+      "Cart system",
+
+      "Payment integration",
+
+      "Responsive layout"
+
+    ],
+
+    "icon": "/products/shopping-cart.png"
+
+  },
+
+  {
+
+    "id": 8,
+
+    "name": "Presentation Template Pack",
+
+    "description": "Professional slides for business and education.",
+
+    "price": 11,
+
+    "period": "one-time",
+
+    "tag": "Best Seller",
+
+    "tagType": "best-seller",
+
+    "features": [
+
+      "50+ slides",
+
+      "Editable layouts",
+
+      "Google Slides",
+
+      "Modern design"
+
+    ],
+
+    "icon": "/products/writing.png"
+
+  },
+
+  {
+
+    "id": 9,
+
+    "name": "Landing Page Builder",
+
+    "description": "Create high-converting landing pages with ease.",
+
+    "price": 14,
+
+    "period": "monthly",
+
+    "tag": "Popular",
+
+    "tagType": "popular",
+
+    "features": [
+
+      "Drag & drop builder",
+
+      "SEO tools",
+
+      "Analytics integration",
+
+      "Fast loading"
+
+    ],
+
+    "icon": "/products/design-tool.png"
+
+  },
+
+  {
+
+    "id": 10,
+
+    "name": "Email Template Kit",
+
+    "description": "Responsive email templates for marketing campaigns.",
+
+    "price": 10,
+
+    "period": "one-time",
+
+    "tag": "New",
+
+    "tagType": "new",
+
+    "features": [
+
+      "HTML templates",
+
+      "Mobile friendly",
+
+      "Customizable",
+
+      "Cross-platform support"
+
+    ],
+
+    "icon": "/products/social-media.png"
+
+  }
+
+]

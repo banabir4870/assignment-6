@@ -5,7 +5,7 @@ import bannerPhoto from '../../assets/banner.png'
 
 const Banner = () => {
     return (
-        <div className='w-11/12 md:w-10/12 mx-auto my-14 md:flex justify-between items-center'>
+        <div className='w-11/12 md:w-8/12 mx-auto my-14 md:flex justify-between items-center'>
             <div className='space-y-4 text-center md:text-left'>
                 <div className="badge badge-soft badge-primary px-4 py-4 rounded-full"><img src={badgeDot} alt="badgeDot" /><span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-medium'>New: AI-Powered Tools Available</span></div>
                 <h1 className=' text-4xl lg:text-5xl xl:text-7xl font-extrabold'>Supercharge Your <br /> Digital Workflow</h1>
