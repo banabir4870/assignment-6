@@ -12,7 +12,7 @@ const Banner = () => {
                 <p className='text-gray-500 text-sm md:text-lg lg:text-xl'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
                 <div className='flex gap-4 items-center justify-center md:justify-start'>
                     <button className='btn btn-primary bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full font-bold'>Explore Products</button>
-                    <button className='flex items-center gap-1 btn btn-outline btn-primary rounded-full'><MdOutlinePlayArrow />Watch Demo</button>
+                    <button className='flex items-center gap-1 btn btn-outline btn-primary rounded-full font-bold'><MdOutlinePlayArrow />Watch Demo</button>
                 </div>
 
             </div>
