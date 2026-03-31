@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Products from './Components/Products/Products'
 import Stats from './Components/Stats/Stats'
 import Tabs from './Components/Tabs/Tabs'
+import Cart from './Components/Cart/Cart'
 
 const getProducts = async () =>{
   const res = await fetch('/products.json')
@@ -23,7 +24,8 @@ function App() {
     <Banner/>
     <Stats/>
     <Tabs activeTab={activeTab} setActiveTab={setActiveTab}/>
-    <Products productsPromise={productsPromise}/>
+    {activeTab === 'products' && <Products productsPromise={productsPromise}/>}
+    {activeTab === 'cart' && <Cart/>}
     </>
   )
 }
