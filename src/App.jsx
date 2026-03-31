@@ -17,15 +17,16 @@ const productsPromise = getProducts()
 
 function App() {
   const [activeTab, setActiveTab] = useState('products')
+  const [cart, setCart] = useState([])
 
   return (
     <>
     <Navbar/>
     <Banner/>
     <Stats/>
-    <Tabs activeTab={activeTab} setActiveTab={setActiveTab}/>
-    {activeTab === 'products' && <Products productsPromise={productsPromise}/>}
-    {activeTab === 'cart' && <Cart/>}
+    <Tabs activeTab={activeTab} setActiveTab={setActiveTab} cart={cart}/>
+    {activeTab === 'products' && <Products productsPromise={productsPromise} cart={cart} setCart={setCart}/>}
+    {activeTab === 'cart' && <Cart cart={cart} setCart={setCart}/>}
     </>
   )
 }

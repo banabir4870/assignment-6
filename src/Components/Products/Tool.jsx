@@ -2,8 +2,12 @@
 import React from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 
-const Tool = ({ product }) => {
+const Tool = ({ product, cart, setCart }) => {
     const tagStatus = product.tagType
+    const handleBuyNow = () =>{
+        setCart([...cart, product])
+        console.log(cart)
+    }
     return (
         <div className='space-y-4 p-6 bg-base-100 shadow-sm border border-gray-200 rounded-2xl flex flex-col'>
             <div className='relative'>
@@ -18,7 +22,7 @@ const Tool = ({ product }) => {
                     product.features.map((feature, index) => <p className='flex gap-2 items-center text-gray-400' key={index}><IoMdCheckmark className='text-green-500' />{feature}</p>)
                 }
             </div>
-            <button className='btn w-full rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Buy Now</button>
+            <button onClick={handleBuyNow} className='btn w-full rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Buy Now</button>
         </div>
     );
 };
