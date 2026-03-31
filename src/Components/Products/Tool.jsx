@@ -1,10 +1,12 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
 
 const Tool = ({ product, cart, setCart }) => {
     const tagStatus = product.tagType
+    const [isBuyed, setIsBuyed] = useState(false)
     const handleBuyNow = () =>{
+        setIsBuyed(true)
         setCart([...cart, product])
         console.log(cart)
     }
@@ -22,7 +24,7 @@ const Tool = ({ product, cart, setCart }) => {
                     product.features.map((feature, index) => <p className='flex gap-2 items-center text-gray-400' key={index}><IoMdCheckmark className='text-green-500' />{feature}</p>)
                 }
             </div>
-            <button onClick={handleBuyNow} className='btn w-full rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Buy Now</button>
+            <button onClick={handleBuyNow} className={`btn w-full rounded-full ${isBuyed ? 'bg-green-600' : 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]'} text-white`}>{isBuyed ? 'Added To Cart' : 'Buy Now'}</button>
         </div>
     );
 };
