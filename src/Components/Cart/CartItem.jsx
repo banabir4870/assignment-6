@@ -1,9 +1,11 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const CartItem = ({item, cart, setCart}) => {
     const handleRemove = (item) =>{
         const filteredArray = cart.filter(c => c.id !== item.id)
         setCart(filteredArray)
+        toast.success(`${item.name} Successfully Removed From Cart`)
     }
     return (
         <div className=' md:flex justify-between items-center p-5 bg-[#F4F4F5] rounded-2xl'>

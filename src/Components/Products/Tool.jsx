@@ -1,14 +1,20 @@
 
 import React, { useState } from 'react';
 import { IoMdCheckmark } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 const Tool = ({ product, cart, setCart }) => {
     const tagStatus = product.tagType
     const [isBuyed, setIsBuyed] = useState(false)
     const handleBuyNow = () =>{
         setIsBuyed(true)
+        const isFound = cart.find(item=> item.id === product.id)
+        if(isFound){
+            toast.error(`${product.name} is Already Added To Cart`)
+            return
+        }
         setCart([...cart, product])
-        console.log(cart)
+        toast.success(`${product.name} Successfully Added To Cart`)
     }
     return (
         <div className='space-y-4 p-6 bg-base-100 shadow-sm border border-gray-200 rounded-2xl flex flex-col'>

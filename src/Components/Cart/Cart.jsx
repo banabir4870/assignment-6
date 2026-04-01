@@ -1,11 +1,13 @@
 import React from 'react';
 import CartItem from './CartItem';
 import { LuShoppingCart } from 'react-icons/lu';
+import { toast } from 'react-toastify';
 
 const Cart = ({ cart, setCart }) => {
     const totalPrice = cart.reduce((sum, item) => sum + item.price, 0)
     const handlePayment = () =>{
         setCart([])
+        toast.success('Payment Successful!')
     }
     return (
         <div className='w-8/12 mx-auto my-10 bg-base-100 shadow-sm border border-gray-200 rounded-2xl p-10 space-y-6'>
