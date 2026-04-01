@@ -6,7 +6,7 @@ const Navbar = ({ cart }) => {
         <div className='bg-base-100 shadow-sm'>
             <div className="navbar md:w-8/12 mx-auto">
                 <div className="navbar-start">
-                    <a className="font-extrabold text-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">daisyUI</a>
+                    <a className="font-extrabold text-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal gap-8 px-1 text-lg font-semibold">
