@@ -1,4 +1,4 @@
-# 🎯 Digital Tools Buying Website
+# 🎯 DigiTools Platform
 
 ## 📌 Project Description
 
