@@ -7,6 +7,7 @@ import Products from './Components/Products/Products'
 import Stats from './Components/Stats/Stats'
 import Tabs from './Components/Tabs/Tabs'
 import Cart from './Components/Cart/Cart'
+import Steps from './Components/Steps/Steps'
 
 const getProducts = async () =>{
   const res = await fetch('/products.json')
@@ -27,6 +28,7 @@ function App() {
     <Tabs activeTab={activeTab} setActiveTab={setActiveTab} cart={cart}/>
     {activeTab === 'products' && <Products productsPromise={productsPromise} cart={cart} setCart={setCart}/>}
     {activeTab === 'cart' && <Cart cart={cart} setCart={setCart}/>}
+    <Steps/>
     </>
   )
 }
