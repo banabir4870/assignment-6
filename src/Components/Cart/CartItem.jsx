@@ -8,7 +8,7 @@ const CartItem = ({item, cart, setCart}) => {
         toast.success(`${item.name} Successfully Removed From Cart`)
     }
     return (
-        <div className=' md:flex justify-between items-center p-5 bg-[#F4F4F5] rounded-2xl'>
+        <div className=' md:flex justify-between items-center p-5 bg-[#F4F4F5] rounded-2xl transition duration-300 hover:-translate-y-3 hover:shadow-2xl cursor-pointer'>
             <div className='flex items-center gap-4'>
                 <img src={item.icon} alt="" />
                 <div>

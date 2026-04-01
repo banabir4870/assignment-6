@@ -1,16 +1,110 @@
-# React + Vite
+# 🎯 A-6 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+A modern and responsive digital tools buying website where users can explore different digital products, add them to cart, and manage their purchases easily. The project focuses on clean UI, smooth user experience, and functional cart management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Live Site: [Add your Netlify link here]
+🔗 GitHub Repo: [Add your GitHub repo link here]
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+* React Toastify
+* JSON (for product data)
+
+---
+
+## ✨ Key Features
+
+### 🛒 1. Dynamic Cart System
+
+* Users can add products to cart
+* Cart count updates instantly in the navbar
+* Remove individual products
+* "Proceed to Checkout" clears the cart
+
+### 🔄 2. Product & Cart Toggle System
+
+* Toggle between Product section and Cart section
+* Default view shows all products
+* Cart shows empty message initially
+
+### 🔔 3. Interactive Notifications
+
+* Used React Toastify for alerts
+* Shows messages for:
+
+  * Add to cart
+  * Remove product
+  * Checkout
+
+---
+
+## 📦 Product Data
+
+* Dynamic product data using JSON
+* Each product includes:
+
+  * Name, Description
+  * Price & Billing Period
+  * Tag (Popular, New, Best Seller)
+  * Features list
+  * Icon
+
+---
+
+## 📱 Responsive Design
+
+* Fully responsive for:
+
+  * Mobile 📱
+  * Tablet 📲
+  * Desktop 💻
+
+---
+
+## 🎨 UI Sections
+
+* Navbar with cart count
+* Banner section
+* Stats section
+* Product cards (3 column layout)
+* Cart section
+* Steps section
+* Pricing section
+* Footer
+
+---
+
+## ⚙️ Additional Functionalities
+
+* Real-time cart updates
+* Total price calculation
+* Clean and user-friendly UI
+* Smooth user interaction
+
+---
+
+## 📌 Future Improvements (Optional)
+
+* User authentication system
+* Payment gateway integration
+* Product filtering & search
+
+---
+
+## 🙌 Author
+
+Developed by [Your Name]
+
+---

@@ -17,7 +17,7 @@ const Tool = ({ product, cart, setCart }) => {
         toast.success(`${product.name} Successfully Added To Cart`)
     }
     return (
-        <div className='space-y-4 p-6 bg-base-100 shadow-sm border border-gray-200 rounded-2xl flex flex-col'>
+        <div className='space-y-4 p-6 bg-base-100 shadow-sm border border-gray-200 rounded-2xl flex flex-col transition duration-300 hover:-translate-y-3 hover:shadow-2xl cursor-pointer'>
             <div className='relative'>
                 <img src={product.icon} alt="" />
                 <p className={`badge badge-soft ${tagStatus === 'popular' ? 'badge-primary' : tagStatus === 'best-seller' ? 'badge-warning' : 'badge-success'} absolute -top-2 -right-2`}>{product.tag}</p>
