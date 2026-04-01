@@ -8,7 +8,7 @@ const Pricing = () => {
                 <h1 className='text-xl md:text-5xl font-extrabold'>Simple, Transparent Pricing</h1>
                 <p className='text-gray-500'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='mt-10 grid md:grid-cols-3 gap-7'>
+            <div className='mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-7'>
                 <div className='bg-[#F2F2F2] shadow-sm border border-gray-200 rounded-2xl p-6 space-y-6 flex flex-col'>
                     <h3 className='font-bold text-2xl'>Starter</h3>
                     <p className='text-gray-500'>Perfect for getting started</p>
